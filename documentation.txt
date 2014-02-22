@@ -1,0 +1,23 @@
+Aditya Makkar
+2012ME10874
+CSL-201 Assignment-1
+
+DOCUMENTATION
+
+— display function: Parameters - one integer n.
+                    Prints the first n elements of arr.
+
+— search function: Parameters - integer v which is key to be searched, integers l and r
+				between which to be searched.
+		   Searches between l (inclusive) and r (exclusive).
+		   Uses ternary search by dividing the elements to be searched into 3
+		   parts using mid1 and mid2.
+
+— insert function: Parameters -  integer v to be inserted, integer n which is length of
+				 arr, integer pos where v is to be inserted
+		   Shifts all elements from pos (inclusive) till n (exclusive) one place
+		   to right and places v at pos.
+
+— main function: After taking number of elements in array as input, it takes elements one
+		 by one and places them at the correct position using search and insert.
+		 Invariant - Anytime a new element is taken all elements taken prior to it 		 are in sorted order.
